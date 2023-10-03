@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=IBM+Plex+Sans:wght@400&family=Lato:ital,wght@0,900;1,300;1,400&family=Roboto:ital,wght@1,300&family=Yantramanav&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.tag{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.tag>span{
+    background: #313534;
+  color: #fff;
+  padding: 20px;
+}
+.heading{
+    margin: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+span{
+    margin-top: 20px;
+    width: fit-content;
+    margin: auto;
+    font-size: 24px;
+}
+.first, .second, .third{
+    background-color: white;
+    color: black;
+}
+
+p{
+    background-color: white;
+    color: black;
+}
+.container1{
+    background-image: url(./Assets/image1.png);
+    min-height: 100vh;
+}
+.container2{
+    background-image: url(./Assets/image2.png);
+    min-height: 60vh;
+}
+.container3{
+    background-image: url(./Assets/image3.png);
+    min-height: 60vh;
+}
+.container4{
+    background-image: url(./Assets/image1.png);
+    min-height: 100vh;
+}
+.container4, .container3, .container2, .container1{
+    position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
