@@ -1,175 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <script
-      src="https://kit.fontawesome.com/7a4b62b0a4.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <header>
-      <nav class="container">
-        <div class="logo">Portfolio</div>
-        <ul>
-          <a href="#hero">
-            <li>Home</li>
-          </a>
-          <a href="#project">
-            <li>Projects</li>
-          </a>
-          <a href="#contact">
-            <li>Contact</li>
-          </a>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="hero">
-        <div class="container">
-          <div class="hero_image animate__animated animate__bounceInLeft">
-            <img src="./images/Hero2.png" alt="hero image" width="400" height="589" />
-          </div>
-          <div class="hero_content">
-            <h1>
-              <span class="hi_text">Hi</span> , I am
-              <span class="name_text">Rushikesh Khire</span>
-            </h1>
-            <h2>Full Stack Developer</h2>
-          </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Goal</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body class="d-flex flex-column align-items-center" >
+    <div class="main_container m-0 p-0" >
+
+      <!-- Navbar Start -->
+        <nav class="text-white d-flex flex-row nav_section fixed-top">
+            <div class="navbar-brand me-auto ms-lg-5" style="font-size: 1.7rem; padding: 5px;" ><strong>Portfolio</strong></div>
+            <div class="d-flex flex-row nav-item_right">
+                <a class="nav-item p-3 text-decoration-none text-white nav-item_right1" href="#Home">Home</a>
+                <a class="nav-item p-3 text-decoration-none text-white nav-item_right2" href="#About">About</a>
+                <a class="nav-item p-3 text-decoration-none text-white nav-item_right3" href="#project">Projects</a>
+                <a class="nav-item p-3 text-decoration-none text-white nav-item_right5" href="#Contact">Contact</a>
+            </div>
+        </nav>
+
+        <!-- Navbar end -->
+        
+        <!-- Hero Section Start -->
+        <div class="position-relative d-flex flex-md-row justify-content-center gap-5 text-white hero_section flex-sm-column mb-5" >
+            <div class="animate__fadeInLeft animate__animated animate__bounce" style="max-width: 400px;">
+                <img src="Assets/purple.png" alt="" class="" style="height: 35rem; width: 25rem;">
+            </div>
+            <div class="position-relative d-flex flex-column justify-items-center fs-2 " style="top: 6em; line-height: 1;">
+                <span><span class="animate__tada" style="font-size: 4rem; color: rgb(242, 178, 60); font-weight: 500;" >Hi</span>
+                ,I am <strong style="font-size: 2.5rem;">Rushikesh Khaire</strong></span>
+                
+                <span class="fw-bolder animate__fadeInTopLeft d-flex justify-content-center" style="font-size: 2.5rem; letter-spacing: 0.1rem; line-height: 1.2; ">Full stack developer</span>
+                <span class="d-flex justify-content-center gap-2 m-3">
+                    <a href="https://drive.google.com/file/d/1976YAuAEiabWW85eswUxtE6rWlEiG72W/view?usp=sharing" download="Rushikesh_Resume"><button class=" btn1 btn btn-outline-warning">Download Resume</button></a>
+                    <a href="mailto:rushikeshk1411@gmail.com"><button class=" btn2 btn btn-outline-info">Hire me</button></a>
+                </span>
+            </div>
         </div>
-      </section>
-      <section id="project">
-        <h2>PROJECTS</h2>
-        <div class="container">
-          <div class="project_container">
-            <div class="grid_item">
-              <a href="https://rushikeshk1411.github.io/Tribute_Website">
-              <div class="card">
-                <img src="images/Tribute web.jpg" alt="Project 1" width="380px" height="330px"/>
-                <div class="card_content">
-                  <h3>Tribute Website</h3>
-                </div>
-              </div></a>
+        <!-- Hero Section End -->
+        <div class="horizontalline"></div>
+        <!-- About section Start -->
+        <div class="About_section px-5 py-5 flex-column" id="About">
+            <h2>About</h2>
+            <div class="about_second_container gap-sm-2 gap-lg-5 d-flex flex-sm-column flex-lg-row">
+
+              <div class="info">
+                  <h3>Myself</h3>    
+                  I am a passionate technology enthusiast, armed with a strong academic foundation from MET Institute of Engineering. With a knack for problem-solving, I have honed my skills by tackling over 500 data structure challenges on platforms like LeetCode Code Studio and GeeksforGeeks.
+                
+                  Beyond technology, I have a strong sense of leadership, as evidenced by my involvement in organizing blood donation camps during my college years. I also took the initiative to orchestrate college-level games, fostering a sense of camaraderie and competition among my peers.
+            
+                  In a world of constant change and discovery, I am on an exhilarating journey of self-improvement and innovation. Join me as I explore the boundless possibilities of the tech world while making a positive impact on the lives of those around me."
+              </div>
+              <div class="skills" id="Skills">
+                <h3 >Skills</h3>
+                <div class = "row">
+                    <div class = "item">
+                      <div class = "item-text">
+                        <span>HTML, CSS</span>
+                        <span class = "w-90">90%</span>
+                      </div>
+                      <div class = "progress">
+                        <div class = "progress-bar w-90"></div>
+                      </div>
+                    </div>
+              
+                    <div class = "item">
+                      <div class = "item-text">
+                        <span>Bootstrap, jQuery</span>
+                        <span class = "wi-75">75%</span>
+                      </div>
+                      <div class = "progress">
+                        <div class = "progress-bar w-75"></div>
+                      </div>
+                    </div>
+              
+                    <div class = "item">
+                      <div class = "item-text">
+                        <span>ASP.NET Mvc Core</span>
+                        <span class = "w-80">80%</span>
+                      </div>
+                      <div class = "progress">
+                        <div class = "progress-bar w-80"></div>
+                      </div>
+                    </div>
+              
+                    <div class = "item">
+                      <div class = "item-text">
+                        <span>SQL</span>
+                        <span class = "w-80">80%</span>
+                      </div>
+                      <div class = "progress">
+                        <div class = "progress-bar w-80"></div>
+                      </div>
+                    </div>
+              
+                    <div class = "item">
+                      <div class = "item-text">
+                        <span>Angular</span>
+                        <span class = "w-80">80%</span>
+                      </div>
+                      <div class = "progress">
+                        <div class = "progress-bar w-60"></div>
+                      </div>
+                    </div>
+              
+                    <div class = "item">
+                      <div class = "item-text">
+                        <span>Data Structure and Algorithm</span>
+                        <span class = "w-85">85%</span>
+                      </div>
+                      <div class = "progress">
+                        <div class = "progress-bar w-68"></div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              </div>
+
             </div>
-            <div class="grid_item">
-              <a href="https://rushikeshk1411.github.io/Job_Application_Form">
-              <div class="card">
-                <img src="images/Project2.png" alt="Project 2" />
-                <div class="card_content">
-                  <h3>Job Application</h3>
+            
+        </div>
+        </div>
+        <!-- About Section End -->
+
+        <!-- Project Section Start -->
+          
+        <section id="project">
+          <h2>Projects</h2>
+          <div class="container">
+            <div class="project_container">
+              <div class="grid_item">
+                <a href="https://rushikeshk1411.github.io/Landing_Page/">
+                  <div class="card">
+                    <img src="images/project4.png" alt="Project 4" />
+                    <div class="card_content">
+                      <h3>Landing Page</h3>
+                    </div>
+                  </div>
+                </a>
+                </div>
+              <div class="grid_item">
+                <a href="https://rushikeshk1411.github.io/Basic_Restaurant_website/">
+                  <div class="card">
+                    <img src="images/project5.png" alt="Project 5" />
+                    <div class="card_content">
+                      <h3>Restaurant Website</h3>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="grid_item">
+                <div class="card">
+                  <img src="images/project6.png" alt="Project 6" />
+                  <div class="card_content">
+                    <h3>Music Website</h3>
+                  </div>
                 </div>
               </div>
-              </a>
-            </div>
-            <div class="grid_item">
-              <a href="https://rushikeshk1411.github.io/Parallex_Wesite/">
-              <div class="card">
-                <img src="images/project3.png" alt="Project 3" />
-                <div class="card_content">
-                  <h3>Parallax Website</h3>
-                </div>
-              </div></a>
-            </div>
-            <div class="grid_item">
-              <a href="Project4/index.html">
-              <div class="card">
-                <img src="images/project4.png" alt="Project 4" />
-                <div class="card_content">
-                  <h3>Landing Page</h3>
+              <div class="grid_item">
+                <div class="card">
+                  <img src="images/project7.png" alt="Project 7" />
+                  <div class="card_content">
+                    <h3>Youtube Clone</h3>
+                  </div>
                 </div>
               </div>
-            </a>
-            </div>
-            <div class="grid_item">
-              <a href="Project 5/index.html">
-              <div class="card">
-                <img src="images/project5.png" alt="Project 5" />
-                <div class="card_content">
-                  <h3>Restaurant Website</h3>
+              <div class="grid_item">
+                <div class="card">
+                  <img src="images/project8.png" alt="Project 8" />
+                  <div class="card_content">
+                    <h3>Documentation Website</h3>
+                  </div>
                 </div>
               </div>
-            </a>
-            </div>
-            <div class="grid_item">
-              <a href="Project 6/index.html">
-              <div class="card">
-                <img src="images/project6.png" alt="Project 6" />
-                <div class="card_content">
-                  <h3>Music Website</h3>
+              <div class="grid_item">
+                <div class="card">
+                  <img src="images/project9.png" alt="Project 9" />
+                  <div class="card_content">
+                    <h3>Blog Website</h3>
+                  </div>
                 </div>
               </div>
-            </a>
-            </div>
-            <div class="grid_item">
-              <a href="Project 7/index.html">
-              <div class="card">
-                <img src="images/project7.png" alt="Project 7" />
-                <div class="card_content">
-                  <h3>Youtube Clone</h3>
-                </div>
-              </div>
-            </a>
-            </div>
-            <div class="grid_item">
-              <a href="Project 8/index.html">
-              <div class="card">
-                <img src="images/project8.png" alt="Project 8" />
-                <div class="card_content">
-                  <h3>Documentation Website</h3>
-                </div>
-              </div>
-            </a>
-            </div>
-            <div class="grid_item">
-              <a href="Project 9/index.html">
-              <div class="card">
-                <img src="images/project9.png" alt="Project 9" />
-                <div class="card_content">
-                  <h3>Blog Website</h3>
-                </div>
-              </div>
-            </a>
             </div>
           </div>
-        </div>
-      </section>
-      <section id="contact">
-        <div class="container">
+        </section>
+
+      <!-- Project Section End -->
+
+        <!-- Contact Section Start -->
+
+        <section class="contact_section" id="contact">
+
           <h2>Let's work together...</h2>
           <div class="top_contact">
             <div class="contact_way">
-              <i class="fab fa-linkedin"></i>
-              <a href="https://www.linkedin.com/in/rushikesh-khaire" target="_blank"><h3>Linkedin</h3></a>
+              <a href="https://www.linkedin.com/in/rushikesh-khaire" target="_blank">
+              <img width="48" height="48" src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin"/>
+              <h3>Linkedin</h3></a>
             </div>
             <div class="contact_way">
-              <i class="fa fa-twitter"></i>
-              <a href="https://twitter.com/Rushike8049269"><h3>Twitter</h3></a>
+              <a href="https://twitter.com/Rushike8049269">
+              <img width="48" height="48" src="https://img.icons8.com/color/48/twitter--v2.png" alt="twitter--v2"/>
+              <h3>Twitter</h3></a>
             </div>
             <div class="contact_way">
-              <a href="mailto:rushikeshk1411@gmail.com"><h3>@ Send Mail</h3></a>
+              <a href="mailto:rushikeshk1411@gmail.com">
+              <img width="48" height="48" src="https://img.icons8.com/fluency/48/mail--v1.png" alt="mail--v1"/>
+              <h3>@ Send Mail</h3></a>
             </div>
           </div>
           <div class="bottom_contact">
             <div class="contact_way">
-              <i class="fab fa-github"></i>
-              <a href="https://github.com/rushikeshk1411"><h3>Github</h3></a>
+              <a href="https://github.com/rushikeshk1411">
+              <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/github.png" alt="github"/>              
+              <h3>Github</h3></a>
             </div>
             <div class="contact_way">
-              <i class="fa fa-mobile"></i>
-              <a href="tel:7977408504"><h3>Mobile</h3></a>
+              <a href="tel:7977408504">
+              <img width="50" height="50" src="https://img.icons8.com/ios/50/phone-disconnected.png" alt="phone-disconnected"/>              
+              <h3>Mobile</h3></a>
             </div>
           </div>
-        </div>
-      </section>
-    </main>
-  </body>
+        </section>
+        <!-- Contact Secton End -->
+    </div>
+</body>
 </html>
+
