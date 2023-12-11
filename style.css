@@ -174,7 +174,7 @@ html, body{
   .card_content {
     padding: 2rem;
     position: relative;
-    top: -6.5rem;
+    top: -4.5rem;
     margin-bottom: -6.5rem;
     transition: 0.5s ease-in-out;
     transform: translateY(100px);
